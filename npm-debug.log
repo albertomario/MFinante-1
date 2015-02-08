@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 warn package.json fiscalcodechecker@ No description
+5 warn package.json fiscalcodechecker@ No repository field.
+6 warn package.json fiscalcodechecker@ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/pi/projects/mfinante',
+8 verbose install   [ 'express', 'body-parser', 'method-override', 'cherio' ] ]
+9 info preinstall fiscalcodechecker@
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping body-parser@~1.4.2 /home/pi/projects/mfinante
+12 verbose already installed skipping method-override@~2.0.2 /home/pi/projects/mfinante
+13 verbose cache add [ 'cherio@*', null ]
+14 verbose cache add name=undefined spec="cherio@*" args=["cherio@*",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'cherio@*',
+15 verbose parsed url   path: 'cherio@*',
+15 verbose parsed url   href: 'cherio@*' }
+16 verbose already installed skipping express@~4.5.1 /home/pi/projects/mfinante
+17 verbose cache add name="cherio" spec="*" args=["cherio","*"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '*',
+18 verbose parsed url   path: '*',
+18 verbose parsed url   href: '*' }
+19 verbose addNamed [ 'cherio', '*' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 0e09afaf-cherio cherio@*
+22 verbose lock cherio@* /root/.npm/0e09afaf-cherio.lock
+23 silly addNameRange { name: 'cherio', range: '*', hasData: false }
+24 verbose request where is /cherio
+25 verbose request registry https://registry.npmjs.org/
+26 verbose request id 9243adedd529509c
+27 verbose url raw /cherio
+28 verbose url resolving [ 'https://registry.npmjs.org/', './cherio' ]
+29 verbose url resolved https://registry.npmjs.org/cherio
+30 verbose request where is https://registry.npmjs.org/cherio
+31 info trying registry request attempt 1 at 10:13:41
+32 http GET https://registry.npmjs.org/cherio
+33 http 404 https://registry.npmjs.org/cherio
+34 verbose headers { date: 'Sat, 24 Jan 2015 10:13:43 GMT',
+34 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=0',
+34 verbose headers   'content-length': '52',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '0',
+34 verbose headers   'x-served-by': 'cache-fra1221-FRA',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1422094422.356564,VS0,VE722',
+34 verbose headers   'keep-alive': 'timeout=10, max=50',
+34 verbose headers   connection: 'Keep-Alive' }
+35 silly registry.get cb [ 404,
+35 silly registry.get   { date: 'Sat, 24 Jan 2015 10:13:43 GMT',
+35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     'cache-control': 'max-age=0',
+35 silly registry.get     'content-length': '52',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     age: '0',
+35 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+35 silly registry.get     'x-cache': 'MISS',
+35 silly registry.get     'x-cache-hits': '0',
+35 silly registry.get     'x-timer': 'S1422094422.356564,VS0,VE722',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 silly lockFile 0e09afaf-cherio cherio@*
+37 silly lockFile 0e09afaf-cherio cherio@*
+38 error 404 404 Not Found: cherio
+38 error 404
+38 error 404 'cherio' is not in the npm registry.
+38 error 404 You should bug the author to publish it
+38 error 404 It was specified as a dependency of 'fiscalcodechecker'
+38 error 404
+38 error 404 Note that you can also install from a
+38 error 404 tarball, folder, or http url, or git url.
+39 error System Linux 3.12.36+
+40 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+41 error cwd /home/pi/projects/mfinante
+42 error node -v v0.10.34
+43 error npm -v 1.4.28
+44 error code E404
+45 verbose exit [ 1, true ]
