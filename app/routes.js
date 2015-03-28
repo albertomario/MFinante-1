@@ -1,5 +1,5 @@
 var mfinanteRepository = require('./postform'),
-    $ = require('cheerio');
+	$ = require('cheerio');
 
 module.exports = function(app) {
 	app.get('/api/companyInfo', function(req, response) {
